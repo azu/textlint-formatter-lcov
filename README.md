@@ -9,10 +9,14 @@
 ## Usage
 
     npm install -D textlint textlint-formatter-lcov
-    textlint -f lcov
+    textlint -f lcov README.md
 
-## Tests
+### Example Usage
 
+textlint with [Codecov](https://codecov.io/ "Codecov - Code Coverage").
+
+    npm install -D textlint textlint-formatter-lcov codecov.io
+    $(npm bin)/textlint -f lcov example/README.md | $(npm bin)/codecov
     
 
 ## Contributing

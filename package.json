@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/textlint-formatter-lcov/issues"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "textlint formatter for lcov format",
   "main": "lib/textlint-formatter-lcov.js",
   "files": [

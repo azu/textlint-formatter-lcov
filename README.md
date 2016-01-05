@@ -1,6 +1,6 @@
 # textlint-formatter-lcov
 
-[textlint](https://github.com/textlint/textlint "textlint") formatter for lcov format.
+[textlint](https://github.com/textlint/textlint "textlint") formatter for [lcov](http://ltp.sourceforge.net/coverage/lcov/geninfo.1.php) format.
 
 ## Installation
 

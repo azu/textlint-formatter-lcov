@@ -18,6 +18,23 @@ textlint with [Codecov](https://codecov.io/ "Codecov - Code Coverage").
     npm install -D textlint textlint-formatter-lcov codecov.io
     $(npm bin)/textlint -f lcov example/README.md | $(npm bin)/codecov
     
+Result: [![codecov.io](https://codecov.io/github/azu/textlint-formatter-lcov/coverage.svg?branch=master)](https://codecov.io/github/azu/textlint-formatter-lcov?branch=master)
+
+![result](https://monosnap.com/file/1Nd1VvZIAySOr8i2SDYD954cid0r30.png)
+
+## Similar formatter
+
+- [textlint-formatter-codecov](https://github.com/azu/textlint-formatter-codecov "textlint-formatter-codecov")
+    - for [Codecov](https://codecov.io/ "Codecov - Code Coverage")
+
+## FAQ
+
+### Which formatter is better for Code Coverage(Text Coverage)?
+
+We recommended that use [Codecov](https://codecov.io/ "Codecov - Code Coverage") with [textlint-formatter-codecov](https://github.com/azu/textlint-formatter-codecov "textlint-formatter-codecov").
+Because, [Codecov JSON](https://gist.github.com/codecov-io/96e1addb96856a9034c2 "Codecov JSON") support `messages`.
+
+![messsage](https://monosnap.com/file/bthUiT82JwLp7VU8tJcYWNaMCQuXTN.png)
 
 ## Contributing
 
